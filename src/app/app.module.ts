@@ -8,10 +8,20 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideAuth,getAuth } from '@angular/fire/auth';
+import { LoginComponent } from './content/login/login.component';
+import { UserComponent } from './content/user/user.component';
+import { CarComponent } from './content/car/car.component';
+import { RepairsComponent } from './content/repairs/repairs.component';
+import { MaintenancesComponent } from './content/maintenances/maintenances.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    UserComponent,
+    CarComponent,
+    RepairsComponent,
+    MaintenancesComponent
   ],
   imports: [
     BrowserModule,
