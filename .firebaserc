@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "carmaintenance-14a24"
+  },
+  "targets": {
+    "carmaintenance-14a24": {
+      "hosting": {
+        "carMaintenance": [
+          "carmaintenance-14a24"
+        ]
+      }
+    }
+  }
+}

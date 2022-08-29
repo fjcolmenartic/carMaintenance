@@ -99,6 +99,16 @@
             "scripts": [],
             "codeCoverage": true
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "carMaintenance:build:production",
+            "firebaseProject": "carmaintenance-14a24",
+            "firebaseHostingSite": "carmaintenance-14a24"
+          }
         }
       }
     }
